@@ -6,3 +6,5 @@ set(CMAKE_CXX_STANDARD 20)
 include_directories(/include)
 include_directories(/tests)
 include_directories(/examples)
+
+add_executable(${PROJECT_NAME} main.cpp)

@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 3.16)
-project(Examples)
-
-set(CMAKE_CXX_STANDARD 20)
-
-file(GLOB_RECURSE SOURCES "*.cpp" )
-add_executable(${PROJECT_NAME} ${SOURCES})

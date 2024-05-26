@@ -1,14 +1,15 @@
 //
 // Created by Emmanuel Leclercq on 25/05/2024.
 //
-int main(int, char *[]) {
+#include <iostream>
 
-    try {}
-    catch (exception &e) {
-        cerr << e.what() << endl;
+int main(int, char *[]) {
+    try {
+    } catch (std::exception &e) {
+        std::cerr << e.what() << std::endl;
         return 1;
     } catch (...) {
-        cerr << "unknown error" << endl;
+        std::cerr << "unknown error" << std::endl;
         return 1;
     }
 }
