@@ -5,10 +5,10 @@
 #ifndef STOCHASTICPROCESS_HPP
 #define STOCHASTICPROCESS_HPP
 
-template <typename T>
-class Process{
+template<typename T>
+class Process {
 private:
-double t;
+    double t;
 };
 
 #endif //STOCHASTICPROCESS_HPP
